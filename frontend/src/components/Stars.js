@@ -12,8 +12,8 @@ function Stars(props) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name: "John Doe",
-        email: "john.doe@example.com",
+        _id: props.id,
+        rating,
       }),
     });
   };
